@@ -1,16 +1,20 @@
 programa {
   funcao inicio() {
-    inteiro numA, numB
-    real soma 
 
+    inteiro x, y
+    inteiro resultado, resultado1
+    
     escreva("Defina um valor para A: ")
-    leia(numA)
+    leia(x)
 
     escreva("\n**\nDefina um valor para B: ")
-    leia(numB)
+    leia(y)
 
-    soma = numA + numB
-    escreva("\n**\nA soma dos valores A e B é: ", soma)
+    resultado = x + y
+    escreva("\n**\nA soma dos valores A e B é: ", resultado)
+    
+    resultado1 = x - y
+    escreva("\n**\nA subtracao dos valores A e B é: ", resultado1)
 
 
 
