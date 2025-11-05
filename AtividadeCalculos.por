@@ -40,13 +40,4 @@ programa {
     escreva("\n---\nA exponenciação de X elevado a Y é: ", resultadoExp)
 
   }
-funcao radiciacao(real numero, real indice): real
-{
-    se (indice = 0) entao
-        escreva("Erro: índice não pode ser zero")
-        retorne 0
-    fimse
-
-    retorne numero ** (1 / indice)
-}
 }
