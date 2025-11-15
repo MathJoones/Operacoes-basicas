@@ -3,3 +3,4 @@ Atividade academica - Gerência de Configuração e Controle de Versão: Introdu
 
 
 # Atividade 3 Eron - Git Bash
+nova implementação para correção 
